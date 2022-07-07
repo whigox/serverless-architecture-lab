@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ServerlessMCW\\MCW-Serverless-architecture-main\\Hands-on lab\\lab-files\\src\\TollBooth\\TollBooth\\TollBooth.csproj": {}
+  },
+  "projects": {
+    "C:\\ServerlessMCW\\MCW-Serverless-architecture-main\\Hands-on lab\\lab-files\\src\\TollBooth\\TollBooth\\TollBooth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ServerlessMCW\\MCW-Serverless-architecture-main\\Hands-on lab\\lab-files\\src\\TollBooth\\TollBooth\\TollBooth.csproj",
+        "projectName": "TollBooth",
+        "projectPath": "C:\\ServerlessMCW\\MCW-Serverless-architecture-main\\Hands-on lab\\lab-files\\src\\TollBooth\\TollBooth\\TollBooth.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\ServerlessMCW\\MCW-Serverless-architecture-main\\Hands-on lab\\lab-files\\src\\TollBooth\\TollBooth\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[26.0.1, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.EventGrid": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.11, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
